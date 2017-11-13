@@ -29,9 +29,9 @@
         <nav id="sidebar">
 
             <div class="sidebar-header">
-                <h3><a class="effect-5" href="https://kdagkoglou.github.io/"><span>Kostas Dagkoglou</span></a></h3>
+                <h3><a class="effect-5" href="https://kdagkoglou.github.io"><span>Kostas Dagkoglou</span></a></h3>
                 <h5>Web Developer</h5>
-                <strong><a class="effect-5" href="https://kdagkoglou.github.io/"><span>KD</span></a></strong>
+                <strong><a class="effect-5" href="https://kdagkoglou.github.io"><span>KD</span></a></strong>
             </div>
 
             <ul class="list-unstyled components">
@@ -85,7 +85,7 @@
 
                 <div class="heading"><h2>About Me</h2></div>
 
-                <p>I am a 33 year old web professional from Thessaloniki Greece who designs, develops and consults about building high quality and accessible websites. I believe good design is about communication and building brand integrity. Always curious and always moving I have developed an interdisciplinary educational and professional background varying from Physics and Telecommunications, to B2B sales, and designing. Being flexible and adaptive I creatively combine my skills and knowledge to critically approach and resolve practical and theoretical issues in any project. Drawing from different disciplines I can offer multifaceted points of view and make sure that systems, interfaces, language and graphics are user-friendly, emotive, aesthetically pleasing, clear, on brand and usable. 
+                <p>I am a 33 year old web professional from Thessaloniki Greece who designs, develops and consults about building high quality and accessible websites. I believe good design is about communication and building brand integrity. Always curious and always moving I have developed an interdisciplinary educational and professional background varying from Physics and Telecommunications, to B2B sales, and designing. Being both flexible and adaptive I creatively combine my skills and knowledge to critically approach and resolve practical and theoretical issues in any project. Drawing from different disciplines I can offer multifaceted points of view and make sure that interfaces, language and graphics are user-friendly, emotive, aesthetically pleasing, clear, on brand and usable. 
                 </p>
                 <!-- <p>Born and raised in Thessaloniki Greece, I've always been a tecky person, fascinated by the way technology has evolved in the last decades. I have a BSc in Physics and an MSc in Radio Electrology and Telecoms. In the past a worked as a Physics and Math Teacher and as a sales clerk for a large multinational firm, earning valuable soft skills. During the last year I began designing websites for some friends and I quickly realised that I found the carrier path that fits me perfectly. Since then I've been learning all the essential skills in order to become an awesome Front-End Developer.</p> -->
 
@@ -265,8 +265,8 @@
                 $(window).on("load",function(){
                     
                     /* Page Scroll to id fn call */
-                    $("#sidebar a,a[href='#top'],a[rel='m_PageScroll2id']").mPageScroll2id({
-                        highlightSelector:"#sidebar a",
+                    $(".list-unstyled components a,a[href='#top'],a[rel='m_PageScroll2id']").mPageScroll2id({
+                        highlightSelector:".list-unstyled components a",
                         clickEvents:false
                     });
                     
@@ -278,7 +278,7 @@
                         });
                     });
                     
-                    $("#sidebar a,a[href='#top'],a[rel='m_PageScroll2id']").click(function(e) {
+                    $(".list-unstyled components a,a[href='#top'],a[rel='m_PageScroll2id']").click(function(e) {
                         e.preventDefault();
                         var href=$(this).attr("href");
                         if($.address.value()==="/"+href){
