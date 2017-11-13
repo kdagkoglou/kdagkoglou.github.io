@@ -265,8 +265,8 @@
                 $(window).on("load",function(){
                     
                     /* Page Scroll to id fn call */
-                    $(".list-unstyled components a,a[href='#top'],a[rel='m_PageScroll2id']").mPageScroll2id({
-                        highlightSelector:".list-unstyled components a",
+                    $("#sidebar a,a[rel='m_PageScroll2id']").mPageScroll2id({
+                        highlightSelector:"#sidebar a",
                         clickEvents:false
                     });
                     
@@ -277,8 +277,8 @@
                             clicked:$("a[href='"+hash+"']")
                         });
                     });
-                    
-                    $(".list-unstyled components a,a[href='#top'],a[rel='m_PageScroll2id']").click(function(e) {
+                    // a[href='#top'],
+                    $("#sidebar .list-unstyled a,a[rel='m_PageScroll2id']").click(function(e) {
                         e.preventDefault();
                         var href=$(this).attr("href");
                         if($.address.value()==="/"+href){
