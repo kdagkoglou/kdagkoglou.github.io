@@ -1,0 +1,146 @@
+.lbpage {
+  background-color: #eaf2ee;
+}
+
+#row2 {
+  background-color: #e0ece6;
+  padding: 3% 0;
+}
+
+#row3 {
+  padding: 3% 0;
+}
+
+#iphone_xs {
+  padding-bottom: 10%;
+}
+
+article {
+  padding: 0 20px;
+}
+
+article a {
+  color: #629af6;
+}
+
+article a:visited {
+  color: #629af6;
+}
+
+article a:hover {
+  color: #0d5fe5;
+  font-weight: 400;
+  transition-duration: 0.1s;
+}
+
+article span h4 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #3D405B;
+    padding-bottom: 2%;
+}
+
+article p {
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+.article_grow:hover {  
+  background-color: #e0ece6;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+}
+
+#app {
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-bottom: 2%;
+  margin-top: -10%;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  position: relative;
+}
+
+.marvel-device.iphone8plus.black {
+  max-width: 340px;
+  max-height: 390px;
+}
+
+.marvel-device.iphone8plus .sensor{
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 54px;
+  left: 114px;
+  z-index: 3;
+  border-radius: 100%;
+}
+
+.marvel-device.note8 {
+  max-width: 380px;
+  max-height: 520px;
+}
+
+.visit_site {
+  /*float: auto;*/
+  background: none;
+  margin-bottom: 2%;
+  padding: 1% 5%;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+
+.visit_site a {
+  color: #3d405b;
+}
+
+.visit_site:hover {
+  background-color: #e0ece6;
+  box-shadow: inset 0 0 0 5px #3d405b;
+  border-radius: 10px;
+  transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  font-weight: 400;
+}
+
+@media (max-width: 1280px) {
+  article span h4 {
+        font-size: 1.8em;
+  }
+
+  article p {
+        font-size: 1.2em;
+  }
+  
+}
+
+@media only screen and (max-width: 600px) {
+    article p {
+        font-size: 1.1em;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+   article p {
+        font-size: 1em;
+   }
+
+   article span h4 {
+        font-size: 1.3em;
+    }
+}

@@ -195,7 +195,6 @@ a[aria-expanded="true"]::before {
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
     font-size: 1.3em;
     font-weight: 300;
     line-height: 1.6em;
@@ -203,7 +202,6 @@ p {
 }
 
 h2 {
-    font-family: 'Open Sans', sans-serif;
     font-size: 3.5em;
     font-weight: bold;
     color: #3D405B; 
@@ -212,14 +210,14 @@ h2 {
 }
 
 a, a:focus {
-    color: #629af6;
+    color: #f7fff7;
     text-decoration: none;
-    transition: all 0.3s;
+    transition: all 0.1s;
 }
 a:hover {
-    color: #0b4bb5;
+    color: #629af6;
     text-decoration: none;
-    transition: all 0.3s;
+    transition: all 0.1s;
 }
 
 i, span {
@@ -462,13 +460,7 @@ footer a {
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
-
-@media (max-width: 1024px) {
-    .home_page {
-        background-attachment: scroll;
-}
-
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
     #sidebar {
         min-width: 80px;
         max-width: 80px;
@@ -526,10 +518,11 @@ footer a {
     }
 
     .home_page {
-    height: 100%;
-    text-align: center;
-    margin: auto;
-    padding: 10%;
+        background-attachment: scroll;
+        height: 100%;
+        text-align: center;
+        margin: auto;
+        padding: 10%;
     }
 
     .about_page {
@@ -558,16 +551,18 @@ footer a {
         margin: auto;
         padding: 10%;
     }
-  
+
 }
+
 @media only screen and (max-width: 600px) {
    h1 { 
-      font-size: 2em; 
+      font-size: 1.8em; 
    }
    p {
       font-size: 1.2em;
       line-height: 1.4em;
    }
+
    .home_page {
     height: 100%;
     text-align: center;
@@ -607,14 +602,16 @@ footer a {
         padding-top: 10%;
     }
 }
+
 @media only screen and (max-width: 450px) {
    h1 { 
-      font-size: 1.5em; 
+      font-size: 1.6em; 
    }
 }
+
 @media only screen and (max-width: 350px) {
    h1 { 
-      font-size: 1em; 
+      font-size: 1.3em; 
    }
    .hero_text p {
     font-size: 0.8em;
