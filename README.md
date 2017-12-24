@@ -1,6 +1,4 @@
-# kdagkoglou.github.io 
-
-Kostas Dagkoglou Personal Website
+# Kostas Dagkoglou Personal Website
 
 - Information
 - Portfolio
